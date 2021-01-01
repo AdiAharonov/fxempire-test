@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fxempire-test/static/css/main.6a8a32b3.chunk.css",
+    "main.js": "/fxempire-test/static/js/main.375f6f74.chunk.js",
+    "main.js.map": "/fxempire-test/static/js/main.375f6f74.chunk.js.map",
+    "runtime-main.js": "/fxempire-test/static/js/runtime-main.9cd76c21.js",
+    "runtime-main.js.map": "/fxempire-test/static/js/runtime-main.9cd76c21.js.map",
+    "static/js/2.dc2b8879.chunk.js": "/fxempire-test/static/js/2.dc2b8879.chunk.js",
+    "static/js/2.dc2b8879.chunk.js.map": "/fxempire-test/static/js/2.dc2b8879.chunk.js.map",
+    "index.html": "/fxempire-test/index.html",
+    "static/css/main.6a8a32b3.chunk.css.map": "/fxempire-test/static/css/main.6a8a32b3.chunk.css.map",
+    "static/js/2.dc2b8879.chunk.js.LICENSE.txt": "/fxempire-test/static/js/2.dc2b8879.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/fxempire-test/static/media/OpenSans-Regular.1b0809d5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cd76c21.js",
+    "static/js/2.dc2b8879.chunk.js",
+    "static/css/main.6a8a32b3.chunk.css",
+    "static/js/main.375f6f74.chunk.js"
+  ]
+}
