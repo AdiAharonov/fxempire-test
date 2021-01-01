@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Chart } from './Components/Chart/Chart';
+import { Tabs } from './Components/Tabs/Tabs';
+import { TimeStamps, Styles } from './Consts';
+import './App.scss';
 
-function App() {
+export const App = () => {
+  const [currTimeStamp, setCurrTimeStamp] = useState({
+    period: 5,
+    precision: TimeStamps.MINUETS,
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={Styles.APP}>
+      <Chart currTimeStamp={currTimeStamp} />
+      <Tabs setCurrTimeStamp={setCurrTimeStamp} />
     </div>
   );
-}
-
-export default App;
+};

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+   
+    line-height: 1.5em;
+    text-align: center;
+    font-family: open-sans;
+    
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(./Assets/Fonts/OpenSans-Regular.ttf);
+}
